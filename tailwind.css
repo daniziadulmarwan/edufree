@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Geist Mono", serif; */
+  font-family: "Poppins", serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  @apply bg-triary/10;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-triary/20;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-triary rounded-b-md;
+}
+
+.wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  @apply bg-primary/70;
+}
+
+.aside-wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+
+#learning-video-wrapper::-webkit-scrollbar {
+  width: 0px;
+}

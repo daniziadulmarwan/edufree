@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFree / Learning</title>
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+  </head>
+  <body>
+    <main class="flex">
+      <!-- Left -->
+      <aside class="hidden lg:block" id="sidebar-learning">
+        <div class="w-[306px] h-screen overflow-hidden">
+          <div class="bg-primary h-20 flex justify-center items-center">
+            <h5 class="text-2xl font-bold text-white">[EDUFREE]</h5>
+          </div>
+
+          <div class="h-screen overflow-y-scroll aside-wrapper px-7 pt-7 pb-24">
+            <ul class="space-y-5 h-auto">
+              <li>
+                <span class="text-base font-medium text-active">Statistik</span>
+              </li>
+
+              <li>
+                <div>
+                  <div class="mb-2 flex justify-end items-center">
+                    <span class="text-sm text-secondary">25%</span>
+                  </div>
+                  <div
+                    class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="flex flex-col justify-center rounded-full overflow-hidden bg-primary text-xs text-white text-center whitespace-nowrap transition duration-500"
+                      style="width: 25%"
+                    ></div>
+                  </div>
+                  <span class="text-xs text-secondary"
+                    >4 dari 10 video telah diselesaikan</span
+                  >
+                </div>
+              </li>
+
+              <li>
+                <span class="text-base font-medium text-active">Intro</span>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-success size-6"></i>
+                  <span class="text-sm text-secondary"
+                    >Perkenalan Instruktur</span
+                  >
+                </a>
+              </li>
+
+              <li>
+                <span class="text-base font-medium text-active">Instalasi</span>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-success size-6"></i>
+                  <span class="text-sm text-secondary">Download Tools</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-success size-6"></i>
+                  <span class="text-sm text-secondary">Instalasi Tools</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-success size-6"></i>
+                  <span class="text-sm text-secondary"
+                    >Basic Pengunaan Tools</span
+                  >
+                </a>
+              </li>
+
+              <li>
+                <span class="text-base font-medium text-active"
+                  >Dasar HTML</span
+                >
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Tentang HTML</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Menjalankan Kode</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Tag</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary"
+                    >Header dan Paragraf</span
+                  >
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">List</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Table</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Form</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Responsive Design</span>
+                </a>
+              </li>
+
+              <li>
+                <span class="text-base font-medium text-active">Dasar CSS</span>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary">Tentang CSS</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="flex items-center gap-3">
+                  <i data-lucide="circle-play" class="text-icon size-6"></i>
+                  <span class="text-sm text-secondary"
+                    >Menyematkan Kode CSS</span
+                  >
+                </a>
+              </li>
+            </ul>
+            <br />
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right -->
+      <div
+        id="learning-video-wrapper"
+        class="bg-background w-full h-screen px-2 lg:px-10 overflow-hidden overflow-y-auto relative inset-0"
+      >
+        <nav class="min-h-20 flex items-center justify-between">
+          <!-- Desktop Sidebar Button -->
+          <button type="button" id="toggle-sidebar" class="hidden lg:block">
+            <i data-lucide="layout-list" class="size-7"></i>
+          </button>
+
+          <!-- Mobile Sidebar Button -->
+          <button
+            class="block lg:hidden"
+            type="button"
+            aria-haspopup="dialog"
+            aria-expanded="false"
+            aria-controls="hs-offcanvas-sidebar"
+            data-hs-overlay="#hs-offcanvas-sidebar"
+          >
+            <i data-lucide="layout-list" class="size-7"></i>
+          </button>
+
+          <!-- Button Profile -->
+          <button
+            type="button"
+            class="inline-flex items-center py-2 pr-2 pl-3 rounded-lg lg:rounded-xl gap-2 lg:gap-3 hover:bg-triary/5 transition-all duration-300 ease-in-out focus:outline-none border border-transparent outline-none"
+            aria-haspopup="dialog"
+            aria-expanded="false"
+            aria-controls="hs-offcanvas-example"
+            data-hs-overlay="#hs-offcanvas-example"
+          >
+            <div
+              class="w-9 h-9 rounded-full bg-primary/20 grid place-items-center relative overflow-hidden border border-triary/25"
+            >
+              <i
+                data-lucide="user-round"
+                class="size-9 absolute -bottom-1 text-primary"
+              ></i>
+            </div>
+            <div class="text-start hidden lg:block">
+              <h5 class="text-secondary text-sm font-medium">Hi, Zavair</h5>
+              <p class="text-secondary text-xs font-normal">
+                Frontend Developer
+              </p>
+            </div>
+            <i data-lucide="chevron-down" class="size-5 text-secondary"></i>
+          </button>
+        </nav>
+
+        <section>
+          <div class="pt-5">
+            <div>
+              <p class="text-lg font-normal text-secondary">
+                Dasar Pemrograman Web
+              </p>
+              <h5 class="text-[38px] font-bold text-secondary">
+                Installasi Tools
+              </h5>
+            </div>
+
+            <div class="mt-11 pb-28">
+              <div
+                class="w-full h-72 lg:h-[501px] 2xl:h-[641px] rounded-xl relative wrapper overflow-hidden bg-video"
+              >
+                <!-- <iframe
+                  src="https://www.youtube.com/embed/RSWPTbP2uik"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="w-full h-full video-frame"
+                ></iframe> -->
+                <button
+                  class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
+                  id="play-button"
+                >
+                  <i
+                    data-lucide="play"
+                    class="size-7 lg:size-[150px] text-warning fill-warning"
+                  ></i>
+                </button>
+              </div>
+
+              <div class="mt-7 flex items-center justify-between">
+                <button
+                  type="button"
+                  class="text-base text-secondary font-medium bg-warning rounded-md py-2.5 lg:py-4 px-8 lg:px-11"
+                >
+                  Previous
+                </button>
+                <button
+                  type="button"
+                  class="text-base text-secondary font-medium bg-warning rounded-md py-2.5 lg:py-4 px-8 lg:px-11"
+                >
+                  Finish & Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Main Menu Offcanvas -->
+    <div
+      id="hs-offcanvas-example"
+      class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white border-e"
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="hs-offcanvas-example-label"
+    >
+      <div class="flex justify-between items-center py-3 px-4">
+        <h3
+          id="hs-offcanvas-example-label"
+          class="font-bold text-triary text-base"
+        >
+          [EDUFREE]
+        </h3>
+        <button
+          type="button"
+          class="size-8 inline-flex justify-center items-center gap-x-2 rounded-xl border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
+          aria-label="Close"
+          data-hs-overlay="#hs-offcanvas-example"
+        >
+          <span class="sr-only">Close</span>
+          <i data-lucide="x" class="size-4 text-triary"></i>
+        </button>
+      </div>
+      <div class="p-2">
+        <!-- Mobile -->
+        <div class="border border-triary/15 py-3 px-2 rounded-md">
+          <h5 class="text-triary text-sm font-medium">Hi, Zavair Marwan</h5>
+          <p class="text-triary text-xs font-normal">zavairmarwan@gmail.com</p>
+        </div>
+
+        <ul class="mt-3">
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Dashboard</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Home</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Tentang Kami</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Kursus</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">FAQ</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Blog</span>
+            </a>
+          </li>
+
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sidebar Menu Offcanvas -->
+    <div
+      id="hs-offcanvas-sidebar"
+      class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white"
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="hs-offcanvas-sidebar-label"
+    >
+      <div class="flex justify-between items-center py-5 px-4 bg-primary">
+        <h3
+          id="hs-offcanvas-sidebar-label"
+          class="font-bold text-white text-base uppercase"
+        >
+          [EDUFREE]
+        </h3>
+        <button
+          type="button"
+          class="size-8 inline-flex justify-center items-center gap-x-2 rounded-xl border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
+          aria-label="Close"
+          data-hs-overlay="#hs-offcanvas-sidebar"
+        >
+          <span class="sr-only">Close</span>
+          <i data-lucide="x" class="size-4 text-triary"></i>
+        </button>
+      </div>
+
+      <div class="p-4 overflow-y-auto h-screen">
+        <ul class="space-y-5 h-auto mb-20">
+          <li>
+            <span class="text-base font-medium text-active">Statistik</span>
+          </li>
+
+          <li>
+            <div>
+              <div class="mb-2 flex justify-end items-center">
+                <span class="text-sm text-secondary">25%</span>
+              </div>
+              <div
+                class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden"
+                role="progressbar"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="flex flex-col justify-center rounded-full overflow-hidden bg-primary text-xs text-white text-center whitespace-nowrap transition duration-500"
+                  style="width: 25%"
+                ></div>
+              </div>
+              <span class="text-xs text-secondary"
+                >4 dari 10 video telah diselesaikan</span
+              >
+            </div>
+          </li>
+
+          <li>
+            <span class="text-base font-medium text-active">Intro</span>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-success size-6"></i>
+              <span class="text-sm text-secondary">Perkenalan Instruktur</span>
+            </a>
+          </li>
+
+          <li>
+            <span class="text-base font-medium text-active">Instalasi</span>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-success size-6"></i>
+              <span class="text-sm text-secondary">Download Tools</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-success size-6"></i>
+              <span class="text-sm text-secondary">Instalasi Tools</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-success size-6"></i>
+              <span class="text-sm text-secondary">Basic Pengunaan Tools</span>
+            </a>
+          </li>
+
+          <li>
+            <span class="text-base font-medium text-active">Dasar HTML</span>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Tentang HTML</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Menjalankan Kode</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Tag</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Header dan Paragraf</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">List</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Table</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Form</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Responsive Design</span>
+            </a>
+          </li>
+
+          <li>
+            <span class="text-base font-medium text-active">Dasar CSS</span>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Tentang CSS</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="circle-play" class="text-icon size-6"></i>
+              <span class="text-sm text-secondary">Menyematkan Kode CSS</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Preline Js -->
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script>
+      document
+        .querySelector("#play-button")
+        .addEventListener("click", function () {
+          document.querySelector(".wrapper").classList.remove("wrapper");
+          this.classList.add("hidden");
+        });
+
+      document
+        .querySelector("#toggle-sidebar")
+        .addEventListener("click", function () {
+          console.log("madang");
+          document.querySelector("#sidebar-learning").classList.toggle("w-0");
+        });
+    </script>
+  </body>
+</html>

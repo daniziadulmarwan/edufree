@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFree / Courses</title>
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- START: Navbar -->
+    <nav>
+      <div class="bg-primary">
+        <div class="container mx-auto py-4 px-2 lg:px-0">
+          <div class="flex items-center justify-between">
+            <div>
+              <a
+                href=""
+                class="text-white text-xl lg:text-2xl font-bold uppercase"
+                >[EduFree]</a
+              >
+            </div>
+
+            <ul class="hidden lg:flex items-center gap-8">
+              <li><a href="" class="text-white uppercase">Home</a></li>
+              <li>
+                <a href="" class="text-white uppercase">Tentang Kami</a>
+              </li>
+              <li><a href="" class="text-white uppercase">Kursus</a></li>
+              <li><a href="" class="text-white uppercase">Faq</a></li>
+              <li>
+                <a href="" class="text-white uppercase flex items-center gap-2">
+                  Blog
+                  <i data-lucide="square-arrow-up-right" class="size-5"></i>
+                </a>
+              </li>
+            </ul>
+
+            <button
+              type="button"
+              class="inline-flex items-center py-2 pr-2 pl-3 rounded-lg lg:rounded-xl gap-2 lg:gap-3 hover:bg-warning/10 transition-all duration-300 ease-in-out focus:outline-none border border-transparent outline-none focus:border-warning/10"
+              aria-haspopup="dialog"
+              aria-expanded="false"
+              aria-controls="hs-offcanvas-example"
+              data-hs-overlay="#hs-offcanvas-example"
+            >
+              <div
+                class="w-8 lg:w-[42px] h-8 lg:h-[42px] rounded-full bg-warning/70 grid place-items-center relative overflow-hidden"
+              >
+                <i
+                  data-lucide="user-round"
+                  class="size-8 lg:size-10 absolute -bottom-1 text-warning"
+                ></i>
+              </div>
+              <div class="text-start hidden lg:block">
+                <h5 class="text-white text-sm font-medium">Hi, Dimas</h5>
+                <p class="text-white text-xs font-normal">Frontend Developer</p>
+              </div>
+              <i
+                data-lucide="chevron-down"
+                class="size-5 lg:size-6 text-white"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END: Navbar -->
+
+    <!-- Breadcrumb -->
+    <nav>
+      <div class="bg-breadcrumb">
+        <div class="container mx-auto py-7 px-2 lg:px-0">
+          <div class="flex items-center gap-3">
+            <a href="" class="text-triary text-sm lg:text-base">Home</a>
+            <i data-lucide="chevron-right" class="size-4 text-triary"></i>
+            <span class="text-triary text-sm lg:text-base">Kursus</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Search & Category -->
+    <section>
+      <div class="container mx-auto mt-16 lg:mt-32 px-2 lg:px-0">
+        <div class="flex flex-col items-start lg:items-center ustify-center">
+          <input
+            type="search"
+            class="rounded-lg border border-triary/75 text-sm px-4 lg:px-10 py-4 placeholder:text-triary placeholder:text-sm lg:placeholder:text-xl focus:outline-none w-full lg:w-[764px]"
+            placeholder="Cari kursus. . ."
+          />
+
+          <!-- Desktop -->
+          <div class="mt-5 lg:mt-10 hidden lg:flex items-center gap-10">
+            <a href="" class="text-active font-medium">Semua</a>
+            <a href="" class="text-triary font-normal">UI Design</a>
+            <a href="" class="text-triary font-normal">Programming</a>
+            <a href="" class="text-triary font-normal">Marketing</a>
+            <a href="" class="text-triary font-normal">Soft Skill</a>
+            <a href="" class="text-triary font-normal">Network</a>
+            <a href="" class="text-triary font-normal">Data Analyst</a>
+          </div>
+
+          <!-- Mobile -->
+          <div class="inline-block lg:hidden mt-10">
+            <button
+              class="flex items-center gap-3 border border-triary/50 py-1.5 px-2.5 rounded-md"
+              type="button"
+              aria-haspopup="dialog"
+              aria-expanded="false"
+              aria-controls="hs-offcanvas-bottom"
+              data-hs-overlay="#hs-offcanvas-bottom"
+            >
+              <i data-lucide="sliders-horizontal" class="size-4"></i>
+              <span>Filter berdasarkan tag</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses List -->
+    <section>
+      <div class="container mx-auto mt-20 lg:mt-44 px-2 lg:px-0">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-10">
+          <!-- Card -->
+          <div class="rounded-xl overflow-hidden">
+            <div class="relative">
+              <div class="h-[235px] bg-warning/70"></div>
+              <div
+                class="flex items-center gap-1 py-1 px-3 rounded-full bg-primary absolute -bottom-3 right-3"
+              >
+                <i
+                  data-lucide="star"
+                  class="size-[14px] lg:size-4 fill-warning text-warning"
+                ></i>
+                <span class="text-xs font-medium text-white">4,9</span>
+              </div>
+            </div>
+            <div
+              class="py-6 px-4 border border-triary/15 overflow-hidden rounded-b-xl"
+            >
+              <h5 class="text-secondary text-xl lg:text-2xl font-medium">
+                Dasar Pemrograman WEB
+              </h5>
+              <p class="text-secondary text-sm lg:text-base font-normal mt-1">
+                Materi pembelajarn mengenai pembuatan website tingkat pemula
+              </p>
+              <div class="mt-6 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="clock" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >4,5 Jam</span
+                  >
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="circle-play" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >10 Video</span
+                  >
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="users-round" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >86 Siswa</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="rounded-xl overflow-hidden">
+            <div class="relative">
+              <div class="h-[235px] bg-warning/70"></div>
+              <div
+                class="flex items-center gap-1 py-1 px-3 rounded-full bg-primary absolute -bottom-3 right-3"
+              >
+                <i
+                  data-lucide="star"
+                  class="size-[14px] lg:size-4 fill-warning text-warning"
+                ></i>
+                <span class="text-xs font-medium text-white">4,9</span>
+              </div>
+            </div>
+            <div
+              class="py-6 px-4 border border-triary/15 overflow-hidden rounded-b-xl"
+            >
+              <h5 class="text-secondary text-xl lg:text-2xl font-medium">
+                Dasar Pemrograman WEB
+              </h5>
+              <p class="text-secondary text-sm lg:text-base font-normal mt-1">
+                Materi pembelajarn mengenai pembuatan website tingkat pemula
+              </p>
+              <div class="mt-6 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="clock" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >4,5 Jam</span
+                  >
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="circle-play" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >10 Video</span
+                  >
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="users-round" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >86 Siswa</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="rounded-xl overflow-hidden">
+            <div class="relative">
+              <div class="h-[235px] bg-warning/70"></div>
+              <div
+                class="flex items-center gap-1 py-1 px-3 rounded-full bg-primary absolute -bottom-3 right-3"
+              >
+                <i
+                  data-lucide="star"
+                  class="size-[14px] lg:size-4 fill-warning text-warning"
+                ></i>
+                <span class="text-xs font-medium text-white">4,9</span>
+              </div>
+            </div>
+            <div
+              class="py-6 px-4 border border-triary/15 overflow-hidden rounded-b-xl"
+            >
+              <h5 class="text-secondary text-xl lg:text-2xl font-medium">
+                Dasar Pemrograman WEB
+              </h5>
+              <p class="text-secondary text-sm lg:text-base font-normal mt-1">
+                Materi pembelajarn mengenai pembuatan website tingkat pemula
+              </p>
+              <div class="mt-6 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i data-lucide="clock" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >4,5 Jam</span
+                  >
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="circle-play" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >10 Video</span
+                  >
+                </div>
+                <div class="flex items-center gap-2">
+                  <i data-lucide="users-round" class="size-4 lg:size-6"></i>
+                  <span class="text-secondary text-sm lg:text-base"
+                    >86 Siswa</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="flex justify-center mt-14">
+          <!-- Pagination -->
+          <nav class="flex items-center gap-x-1" aria-label="Pagination">
+            <button
+              type="button"
+              class="min-h-10 min-w-10 inline-flex justify-center items-center text-sm rounded-lg text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+              aria-label="Previous"
+            >
+              <i data-lucide="chevron-left" class="text-triary"></i>
+              <span class="sr-only">Previous</span>
+            </button>
+            <div class="flex items-center gap-x-3">
+              <span
+                class="min-h-10 min-w-10 flex justify-center items-center border border-warning text-triary text-sm rounded-lg focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none bg-warning"
+                >1</span
+              >
+              <span
+                class="min-h-10 flex justify-center items-center text-triary text-sm"
+                >of</span
+              >
+              <span
+                class="min-h-10 min-w-10 flex justify-center items-center border border-triary/60 text-triary text-sm rounded-lg focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+                >3</span
+              >
+            </div>
+            <button
+              type="button"
+              class="min-h-10 min-w-10 inline-flex justify-center items-center text-sm rounded-lg text-triary hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+              aria-label="Next"
+            >
+              <i data-lucide="chevron-right" class="text-triary"></i>
+            </button>
+          </nav>
+          <!-- End Pagination -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="bg-primary pt-8 lg:pt-16 pb-8 lg:pb-0 mt-20 lg:mt-48">
+        <div class="container mx-auto px-2 lg:px-0">
+          <div
+            class="flex flex-col lg:flex-row items-start gap-10 lg:gap-0 lg:justify-between"
+          >
+            <!-- Brands -->
+            <div>
+              <div>
+                <h3 class="text-white uppercase font-bold text-2xl">
+                  [edufree]
+                </h3>
+                <p
+                  class="text-white text-sm lg:text-base font-light lg:font-normal w-[475px] mt-3"
+                >
+                  Edufree Academy is a program that provides a step guide for
+                  planning, creating, and launching an online course.
+                </p>
+              </div>
+              <div class="mt-10 lg:mt-28 lg:inline-block pr-2 lg:pr-0">
+                <div
+                  class="bg-warning rounded-b-md lg:rounded-b-none rounded-t-md py-4 px-5 lg:px-7 flex items-center justify-between lg:justify-normal gap-7"
+                >
+                  <div>
+                    <p class="text-triary text-base lg:text-lg font-medium">
+                      Email
+                    </p>
+                    <span class="text-triary text-sm lg:text-base font-normal"
+                      >zeronosvegaaltair@gmail.com</span
+                    >
+                  </div>
+                  <div>
+                    <p class="text-triary text-base lg:text-lg font-medium">
+                      Telephone
+                    </p>
+                    <span
+                      class="text-triary text-sm lg:text-base font-normal inline-block"
+                      >0853-5259-4403</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Menus -->
+            <div
+              class="grid grid-cols-1 lg:grid-cols-3 items-start gap-10 lg:gap-24"
+            >
+              <div>
+                <h5 class="md:text-lg xl:text-xl text-white font-medium">
+                  Social Media
+                </h5>
+                <div class="flex flex-col gap-2 mt-5">
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Facebok</a
+                  >
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Instagram</a
+                  >
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Twitter</a
+                  >
+                </div>
+              </div>
+
+              <div>
+                <h5 class="md:text-lg xl:text-xl text-white font-medium">
+                  Our Program
+                </h5>
+                <div class="flex flex-col gap-2 mt-5">
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Enteupreneur</a
+                  >
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Content Creator</a
+                  >
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Digital Era</a
+                  >
+                </div>
+              </div>
+
+              <div>
+                <h5 class="md:text-lg xl:text-xl text-white font-medium">
+                  Dukungan
+                </h5>
+                <div class="flex flex-col gap-2 mt-5">
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Tentang Kami</a
+                  >
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Ketentuan</a
+                  >
+                  <a
+                    href=""
+                    class="text-white font-light lg:font-normal text-sm lg:text-base"
+                    >Kebijakan Privasi</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white border">
+        <div class="container mx-auto py-6">
+          <div
+            class="flex flex-col lg:flex-row items-center justify-between gap-2 lg:gap-0"
+          >
+            <span
+              class="text-sm desktop:text-lg text-triary laptop:font-normal desktop:font-medium"
+              >Copyright © 2024 EduFree. All Right Reserved</span
+            >
+            <ul class="flex items-center gap-9">
+              <li>
+                <a
+                  href=""
+                  class="text-sm desktop:text-base text-triary font-normal uppercase"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-sm desktop:text-base text-triary font-normal uppercase"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-sm desktop:text-base text-triary font-normal uppercase"
+                  >Kursus</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-sm desktop:text-base text-triary font-normal uppercase"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="text-sm desktop:text-base text-triary font-normal uppercase"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Filter Tag Offcanvas -->
+    <div
+      id="hs-offcanvas-bottom"
+      class="hs-overlay hs-overlay-open:translate-y-0 translate-y-full fixed bottom-0 inset-x-0 transition-all duration-300 transform max-h-96 size-full z-[80] bg-white border-b hidden"
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="hs-offcanvas-bottom-label"
+    >
+      <div class="flex justify-between items-center py-3 px-4 border-b">
+        <h3 id="hs-offcanvas-bottom-label" class="font-bold text-gray-800">
+          Filter Tags
+        </h3>
+
+        <button
+          type="button"
+          class="size-8 inline-flex justify-center items-center gap-x-2 rounded-xl border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
+          aria-label="Close"
+          data-hs-overlay="#hs-offcanvas-bottom"
+        >
+          <span class="sr-only">Close</span>
+          <i data-lucide="x" class="size-4 text-triary"></i>
+        </button>
+      </div>
+      <div class="p-2">
+        <ul>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="align-center" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Semua</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">UI Design</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Programming</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Marketing</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Soft Skill</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Network</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Data Analyst</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Menu Offcanvas -->
+    <div
+      id="hs-offcanvas-example"
+      class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white border-e"
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="hs-offcanvas-example-label"
+    >
+      <div class="flex justify-between items-center py-3 px-4">
+        <h3
+          id="hs-offcanvas-example-label"
+          class="font-bold text-triary text-base"
+        >
+          [EDUFREE]
+        </h3>
+        <button
+          type="button"
+          class="size-8 inline-flex justify-center items-center gap-x-2 rounded-xl border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
+          aria-label="Close"
+          data-hs-overlay="#hs-offcanvas-example"
+        >
+          <span class="sr-only">Close</span>
+          <i data-lucide="x" class="size-4 text-triary"></i>
+        </button>
+      </div>
+      <div class="p-2">
+        <!-- Mobile -->
+        <div class="border border-triary/15 py-3 px-2 rounded-md">
+          <h5 class="text-triary text-sm font-medium">Hi, Zavair Marwan</h5>
+          <p class="text-triary text-xs font-normal">zavairmarwan@gmail.com</p>
+        </div>
+
+        <ul class="mt-3">
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Dashboard</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Home</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Tentang Kami</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Kursus</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">FAQ</span>
+            </a>
+          </li>
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Blog</span>
+            </a>
+          </li>
+
+          <li class="hover:bg-warning/20 cursor-pointer rounded-md py-3 px-2">
+            <a href="" class="flex items-center gap-3">
+              <i data-lucide="move-right" class="size-5 text-triary"></i>
+              <span class="text-sm text-triary">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Preline Js -->
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFree / Login</title>
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+  </head>
+  <body>
+    <div class="bg-white py-5 lg:py-16 px-2 lg:px-16 overflow-x-hidden">
+      <a href="" class="inline-flex items-center gap-3">
+        <i data-lucide="move-left"></i>
+        <span class="text-secondary text-lg">Homepage</span>
+      </a>
+
+      <div class="flex flex-col lg:flex-row mt-5 lg:mt-10">
+        <div
+          class="w-full lg:w-1/2 bg-primary/20 p-10 lg:p-20 hidden lg:block"
+        ></div>
+        <div class="w-full lg:w-1/2 bg-primary p-10 lg:p-20">
+          <h5 class="text-2xl text-white font-bold">Login</h5>
+          <p class="text-base text-background mt-4">
+            Persiapkan diri untuk masa depan yang penuh dengan bintang
+          </p>
+
+          <form method="post">
+            <div class="space-y-5 mt-12">
+              <div>
+                <input
+                  type="email"
+                  class="border border-white/30 rounded-lg w-full bg-primary focus:outline-none py-4 px-8 text-white text-base placeholder:text-background placeholder:text-base placeholder:font-light"
+                  placeholder="Email"
+                  name="email"
+                />
+                <span class="text-xs text-warning italic select-none"
+                  >Email required</span
+                >
+              </div>
+              <div>
+                <input
+                  type="password"
+                  class="border border-white/30 rounded-lg w-full bg-primary focus:outline-none py-4 px-8 text-white text-base placeholder:text-background placeholder:text-base placeholder:font-light"
+                  placeholder="********"
+                  name="password"
+                />
+                <span class="text-xs text-warning italic select-none"
+                  >Password must be minimal 8 character</span
+                >
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="default-checkbox"
+                  type="checkbox"
+                  class="w-5 h-5 bg-primary border-2 border-white/50 rounded appearance-none focus:outline-none checked:bg-warning checked:border-warning relative peer"
+                />
+                <i
+                  data-lucide="check"
+                  class="size-5 text-primary stroke-[4] absolute hidden peer-checked:block pointer-events-none"
+                ></i>
+                <label
+                  for="default-checkbox"
+                  class="ms-2 text-base font-light text-white/50"
+                  >simpan info masuk</label
+                >
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="bg-warning text-secondary py-4 w-full text-lg font-bold uppercase tracking-wide rounded-md mt-10"
+            >
+              Masuk
+            </button>
+          </form>
+          <div class="mt-7 text-center">
+            <a href="" class="text-base text-white"
+              >Belum punya akun ? <span class="underline">Register</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preline Js -->
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+    <!-- Lucide Icons -->
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

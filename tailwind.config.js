@@ -14,6 +14,11 @@ module.exports = {
         success: "#21A099",
         icon: "#818181",
         background: "#F4F6FC",
+        tiktok: "#ff0050",
+        instagram: "#C13584",
+        youtube: "#FF0000",
+        html: "#e34c26",
+        javascript: "#f0db4f",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

@@ -22,7 +22,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        geist: ["Geist Mono", "serif"],
+        open: ["Open Sans", 'serif']
       },
     },
   },

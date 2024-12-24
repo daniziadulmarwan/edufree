@@ -1,0 +1,89 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Noto Sans"
+            href="https://fonts.googleapis.com/css?family=Noto+Sans" />
+        <mj-title>{FAIZDIGITAL}</mj-title>
+        <mj-attributes>
+            <mj-text padding="0" />
+            <mj-class name="blue" color="blue" />
+            <mj-class name="big" font-size="20px" />
+            <mj-class name="flex" display="flex" />
+            <mj-class name="justify-between" justify-content="space-between" />
+            <mj-all font-family="NotoSans" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+
+        <!-- HEADER -->
+        <mj-section background-color='#ffffff' padding="32px 0px">
+            <mj-column width="10%" padding="0px">
+                <mj-social icon-size="22px" mode="horizontal" padding="0px">
+                    <mj-social-element src="logo.png" />
+                </mj-social>
+            </mj-column>
+
+            <mj-column width="65%"></mj-column>
+            
+            <mj-column width="25%" padding="0px">
+                <mj-social icon-size="22px" mode="horizontal" padding="0px">
+                    <mj-social-element href="#" src="facebook.png" />
+                    <mj-social-element href="#" src="google.png" />
+                    <mj-social-element href="#" src="instagram.png" />
+                </mj-social>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color='#ffffff' padding="30px 20px 0px 20px">
+            <mj-column width="100%">
+                <mj-text font-family="Noto Sans" font-size="18px" font-weight="semibold"
+                color="#282938"
+                >
+                Hi, <strong>Mikey!</strong>
+                </mj-text>
+                <mj-text font-family="Noto Sans" font-size="16px" font-weight="semibold" padding-top="6px" color="#282938">
+                In order to start using your account, you need to confirm your email.
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%" padding="16px 0px">
+                <mj-button href="#" align="left" font-family="Noto Sans" background-color="#FCD980" color="#1C1E53" border-radius="30px"
+                height="24px" font-size="14px" padding="0px" font-weight="600">
+                Confirm Your Email Address
+                </mj-button>
+            </mj-column>
+            <mj-column width="100%">
+            <mj-text font-family="Noto Sans" font-size="14px" line-height="18px" color="#818181">
+                If you did not sign up for this account you can ignore this email and the account will we deleted automatically after 5 days.
+            </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color='#ffffff' 
+        padding="150px 0px 0px 0px">
+            <mj-column width="100%">
+                <mj-text font-family="Noto Sans" font-size="13px" align="center" color="#232536">
+                    You received this email from faizdigital99@gmail.com in response to your recent.
+                </mj-text>
+                <mj-text font-family="Noto Sans" font-size="13px" align="center" padding-top="3px" color="#232536">
+                    If you did't sign up or would like to not receive emails you can Unsubscribe.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color='#ffffff' 
+        padding="40px 0px 0px 0px">
+            <mj-column width="100%">
+                <mj-text font-family="Noto Sans" font-size="13px" align="center" color="#232536">
+                    Secang, Magelang, Central Java
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color='#ffffff' 
+        padding="14px 0px 0px 0px">
+            <mj-column width="100%">
+                <mj-image src="logo.png" alt="" width="20px" />
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

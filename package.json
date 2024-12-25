@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i tailwind.css -o ./src/assets/styles/main.css --watch"
+    "dev": "npx tailwindcss -i tailwind.css -o ./src/assets/styles/main.css --watch",
+    "mjml": "mjml ./src/email/email.mjml -o email.html"
   },
   "keywords": [],
   "author": "",

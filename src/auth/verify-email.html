@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <style>
+        body {
+            font-family: "Raleway", serif;
+        }
+    </style>
+  </head>
+  <body class="overflow-x-hidden">
+
+    <div class="bg-background w-screen h-screen flex justify-center items-center">
+        <div class="w-full lg:w-[45%] bg-white py-8 px-3 lg:px-6 rounded-xl flex flex-col items-center justify-center border border-triary/5 shadow-inherit mx-2 lg:mx-0">
+            <div class="w-20 h-20 rounded-full bg-breadcrumb border border-triary/10 flex justify-center items-center">
+                <img src="../assets/images/verify.png" alt="email" class="w-12 h-12">
+            </div>
+
+            <h3 class="text-2xl text-secondary font-semibold mt-6">Verify your email address</h3>
+            <p class="text-sm text-secondary font-normal text-center mt-3 leading-5">A verification email has been sent to your email 
+                <span class="text-[#1BBF6D] font-semibold">zeronosvega@gmail.com</span>
+            </p>
+            <p class="text-sm text-secondary font-normal text-center leading-5">Please check your email and click the link provided in the email to complete your account registration.</p>
+
+            <div class="mt-20">
+                <p class="text-[13px] text-secondary text-center">If you don't receive the email within the next 5 minutes, use the button below to resend verification email or please check your spam folder.</p>
+            </div>
+            <div class="mt-8">
+                <button class="bg-[#1BBF6D] text-white font-semibold py-3 px-8 rounded-full text-sm capitalize tracking-wide">Resend verification email</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preline Js -->
+    <script src="../../node_modules/preline/dist/preline.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
